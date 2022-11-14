@@ -9,22 +9,22 @@
 
 /* Верхній логотип */
 
-.logo__header {
+.logo__dark {
   color: #000000;
 }
 
 /* Навігація */
 
-.nav {
+.menu {
   margin-left: 94px;
 }
 
-.nav__list {
+.menu__list {
   display: flex;
   gap: 50px;
 }
 
-.nav__link {
+.menu__link {
   position: relative;
 
   display: block;
@@ -35,11 +35,11 @@
   transition: color var(--primary-transition);
 }
 
-.nav__current {
+.menu__current {
   color: var(--accent-color);
 }
 
-.nav__current::after {
+.menu__current::after {
   content: "";
   display: block;
   width: 100%;
@@ -51,8 +51,8 @@
   bottom: 0;
 }
 
-.nav__list .nav__link:hover,
-.nav__list .nav__link:focus {
+.menu__list .menu__link:hover,
+.menu__list .menu__link:focus {
   color: var(--accent-color);
 }
 

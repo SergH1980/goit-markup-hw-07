@@ -1,15 +1,15 @@
-.specialization__list {
+.pic-mask__list {
   display: flex;
   gap: 30px;
   width: calc((100% - 60px) / 3);
 }
 
-.specialization__card {
+.pic-mask__card {
   position: relative;
   text-align: center;
 }
 
-.specialization__mask {
+.pic-mask__mask {
   display: block;
   width: 100%;
   min-height: 70px;
@@ -19,7 +19,7 @@
   left: 0;
 }
 
-.specialization__text {
+.pic-mask__text {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
