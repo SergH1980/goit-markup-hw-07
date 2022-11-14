@@ -12,12 +12,12 @@
   display: inline-block;
   text-decoration: none;
   transition: box-shadow var(--primary-transition);
-}
 
-.sample__link:hover,
-.sample__link:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
+  &:hover,
+  &:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
 }
 
 .sample__overlay {
@@ -39,6 +39,9 @@
   color: var(--primary-bg-color);
   background-color: rgba(33, 150, 243, 0.9);
   transition: transform var(--primary-transition);
+  .sample__card:hover & {
+    transform: translateY(0);
+  }
 }
 
 .sample__description {
@@ -61,8 +64,4 @@
   line-height: 1.88;
   color: var(--primary-text-color);
   font-weight: 400;
-}
-
-.sample__card:hover .sample__text {
-  transform: translateY(0);
 }

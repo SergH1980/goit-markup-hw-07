@@ -33,27 +33,27 @@
 
   color: var(--title-text-color);
   transition: color var(--primary-transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .menu__current {
   color: var(--accent-color);
-}
 
-.menu__current::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--accent-color);
-  border-radius: 2px;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
-.menu__list .menu__link:hover,
-.menu__list .menu__link:focus {
-  color: var(--accent-color);
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
 }
 
 /* Контакти */
@@ -77,15 +77,15 @@
   padding-bottom: 32px;
   align-items: center;
   transition: color var(--primary-transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    fill: var(--accent-color);
+  }
 }
 
 .contact__icon {
   margin-right: 10px;
   fill: currentColor;
-}
-
-.contact__link:hover,
-.contact__link:focus {
-  color: var(--accent-color);
-  fill: var(--accent-color);
 }

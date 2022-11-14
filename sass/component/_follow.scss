@@ -32,12 +32,12 @@
   padding-left: 16px;
 
   color: var(--primary-bg-color);
-}
 
-.follow__field::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
+  &::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
 
 .follow__button {

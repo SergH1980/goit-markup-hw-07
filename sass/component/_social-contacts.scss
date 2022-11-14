@@ -9,18 +9,18 @@
   height: 44px;
 }
 
-.social__team {
+.social__person {
   color: var(--icon-social-color);
   transition: color var(--primary-transition),
     background-color var(--primary-transition);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-bg-color);
+  }
 }
 
 .social__icon {
   fill: currentColor;
-}
-
-.social__team:hover,
-.social__team:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
 }

@@ -17,6 +17,10 @@
 .address__other {
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--primary-transition);
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }
 
 .address-postal {
@@ -26,9 +30,4 @@
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--primary-transition);
-}
-
-.address__other:hover,
-.address__other:focus {
-  color: var(--accent-color);
 }

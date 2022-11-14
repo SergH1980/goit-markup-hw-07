@@ -34,20 +34,14 @@
   justify-content: center;
   transition: color var(--primary-transition),
     border-color var(--primary-transition);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+  }
 }
 
 .modal__icon {
   fill: currentColor;
-}
-
-.modal__close:hover,
-.modal__close:focus {
-  color: var(--accent-color);
-  border-color: var(--accent-color);
-}
-
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
 }

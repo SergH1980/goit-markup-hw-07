@@ -19,9 +19,9 @@
   color: var(--primary-bg-color);
 
   transition: background-color var(--primary-transition);
-}
 
-.social__link:hover,
-.social__link:focus {
-  background: var(--accent-color);
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+  }
 }

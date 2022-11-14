@@ -19,14 +19,13 @@
   color: var(--icon-social-color);
   transition: color var(--primary-transition),
     border-color var(--primary-transition);
+  &:focus,
+  &:hover {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+  }
 }
 
 .client__icon {
   fill: currentColor;
-}
-
-.client__link:focus,
-.client__link:hover {
-  border-color: var(--accent-color);
-  color: var(--accent-color);
 }
