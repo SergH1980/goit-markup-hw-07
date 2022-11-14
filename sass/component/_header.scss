@@ -1,0 +1,91 @@
+.header {
+  border-bottom: 1px solid #ececec;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+/* Верхній логотип */
+
+.logo__header {
+  color: #000000;
+}
+
+/* Навігація */
+
+.nav {
+  margin-left: 94px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 50px;
+}
+
+.nav__link {
+  position: relative;
+
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--title-text-color);
+  transition: color var(--primary-transition);
+}
+
+.nav__current {
+  color: var(--accent-color);
+}
+
+.nav__current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--accent-color);
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.nav__list .nav__link:hover,
+.nav__list .nav__link:focus {
+  color: var(--accent-color);
+}
+
+/* Контакти */
+
+.contact {
+  display: flex;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.contact__mail,
+.contact__phone {
+  display: inline-flex;
+  align-items: center;
+}
+
+.contact__link {
+  display: inline-flex;
+  color: var(--primary-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+  align-items: center;
+  transition: color var(--primary-transition);
+}
+
+.contact__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contact__link:hover,
+.contact__link:focus {
+  color: var(--accent-color);
+  fill: var(--accent-color);
+}
