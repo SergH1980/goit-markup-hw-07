@@ -15,8 +15,6 @@
   color: var(--title-text-color);
 }
 
-/* Пункти форми */
-
 .modal__windows {
   display: block;
   margin-bottom: 20px;
@@ -93,8 +91,6 @@
   }
 }
 
-/* Згода */
-
 .confirmation {
   display: flex;
   align-items: center;
@@ -141,8 +137,6 @@
   line-height: 1.71;
   color: var(--accent-color);
 }
-
-/* Кнопка відправки  */
 
 .license__agreement {
   font-weight: 400;
