@@ -23,7 +23,7 @@
   text-align: center;
 
   transition: background-color var(--primary-transition),
-    box-shadow var(--primary-transition);
+    color var(--primary-transition), box-shadow var(--primary-transition);
 
   &:hover,
   &:focus {

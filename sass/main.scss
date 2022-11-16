@@ -1,25 +1,26 @@
 @import "./utils/vars";
 
+@import "./base/reset";
 @import "./base/body";
 @import "./component/common";
 @import "./utils/hidden";
 @import "./utils/backdrop-hidden";
 
 @import "./layout/header";
-@import "./layout/hero";
-@import "./layout/feature";
-@import "./layout/specialization";
-@import "./layout/team";
+@import "./component/hero";
+@import "./component/feature";
+@import "./component/specialization";
+@import "./component/team";
 @import "./component/social-contacts";
-@import "./layout/clients";
+@import "./component/clients";
 @import "./layout/footer";
 @import "./layout/contact-footer";
 @import "./layout/join";
 @import "./layout/follow";
 
-@import "./layout/portfolio-filter";
-@import "./layout/portfolio-sample";
+@import "./component/portfolio-filter";
+@import "./component/portfolio-sample";
 
-@import "./layout/backdrop";
-@import "./layout/modal";
-@import "./layout/form";
+@import "./component/backdrop";
+@import "./component/modal";
+@import "./component/form";
